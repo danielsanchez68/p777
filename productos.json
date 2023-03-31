@@ -1,0 +1,32 @@
+[
+	{
+		"id": 1,
+		"nombre": "TV",
+		"precio": 1234,
+		"stock": 11
+	},
+	{
+		"id": 2,
+		"nombre": "Mouse",
+		"precio": 123,
+		"stock": 12
+	},
+	{
+		"nombre": "Mesa",
+		"precio": 777777,
+		"stock": 99,
+		"id": 4
+	},
+	{
+		"nombre": "Silla",
+		"precio": 2233,
+		"stock": 887,
+		"id": 5
+	},
+	{
+		"nombre": "Silla2",
+		"precio": 22331,
+		"stock": 8872,
+		"id": 6
+	}
+]
