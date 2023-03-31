@@ -11,7 +11,7 @@ app.use(express.json())
 app.use('/api/productos', new RouterProductos().start())
 
 const PORT = config.PORT
-const server = app.listen(PORT, () => console.log(`El servidor express está escuchando en la url: http://localhost:8080`))
+const server = app.listen(PORT, () => console.log(`El servidor express está escuchando en la url: http://localhost:${PORT}`))
 server.on('error', error => console.log(`Error en servidor: ${error.message}`))
 
 
